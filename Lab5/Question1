@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html>
+<head>
+<style>
+.container{
+  display : flex;
+  flex-wrap : wrap;
+  justify-content : center;
+}
+img{
+  width : 450px;
+  height : 350px;
+  margin : 5px;
+  transition : all 1s;
+  box-shadow : 4px 4px 4px #883885;
+}
+img:hover{
+  transform: skew(0deg, 360deg);
+}
+h1{
+  border-bottom : 2px solid blue;
+  width : 400px;
+  text-align : center : center;
+  border-right : 2px solid orange;
+}
+</style>
+</head>
+<body>
+<h1>Photos Of Nature</h1>
+<h2>Using flex and learning</h2>
+<div class="container">
+<img src="img1.jpg"/>
+<img src="img2.jpg"/>
+<img src="img3.jpg"/>
+<img src="img4.jpg"/>
+<img src="image5.jpg"/>
+<img src="img6.jpg"/>
+</div>
+</body>
+</html>
